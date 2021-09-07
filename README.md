@@ -8,3 +8,7 @@
 		* linux-5.0.3/ : keyvalue.* will be changed using b+tree structure
 		* pmem/ : will be changed for b+tree simulation.
 
+### COMMIT_HISTORY
+		Since the original repository is a private, labaratory repository, I log the commit histories in this section instead.
+		Check "commit.log" file in the repository
+

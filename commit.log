@@ -1,0 +1,183 @@
+c7c76a743 no bd
+0d0132d41 fix
+0a4344314 fix
+ca2912cb8 fix
+e84c79a39 start analysis
+5be4b67f6 fix
+25341791a change malloc to pmem_map_file()
+cf67be829 failed try
+c254257c4 before full-bd change
+8c5217ebb breakdown part completed?
+350df8fc4 breakdowning
+72f63aa81 reordering codes to improve put() performance
+1c4ece975 clflushopt
+cfb5c438e concurrency complete?
+74195e78e insert double layer critical section test
+444d70232 kernel Descending Lock, down_write issue
+dc0eae215 spinlock -> reader_writer_lock
+a1320b02d spinlock implement
+2bd49e42a descending lock progressing
+a459293cb Improve sync
+0e0ebc1f8 SOLVE SYNC ISSUE
+4deefd7e6 testing sync
+09d5bc221 sync testing
+15132a387 sync ISSUE
+7d60a0829 implement b+tree syscall, bp_search-findValue() ISSUE
+f1e94a7bb implement consistency func()
+53b5b57ef persistent memory simulationize
+ea013f387 b+tree standard implement, update README.md
+5207f31cb branch created
+a6c26c4b0 backup complete
+c58365621 implement recovery_process()
+74a852ba2 refactoring offset changing func()
+2229c2d3b backup policy(?) established
+ecc66e0ce CONSISTENCY PROGRESS
+ee186b0c8 KERNEL REMOVE ISSUE FIX
+5eec130f4 FIX REMOVE ISSUE: swapValue + BTree_remove Logic Error
+79feaeb97 user space remove error issue
+339a10736 test(syscall) function must be unified
+79e80ec07 pmem refactoring
+6d8873fd4 C90: WARNING FIX
+02f3e6973 YCSB TEST SUCCESS
+a829030f7 cleanup codes
+c8d861dc6 remove COMPLETE. TODO: exporting to kernel
+e19722c9c 0120 backup, remove error
+9693f67b4 0120 backup
+226fd4358 Segmentation fault ERROR fix, BTree_remove search ERROR
+e2ec32add Makefile fix
+ada0251c1 header fix
+bc5062fe2 for-overhead ==> memcpy
+5073d1fbb insertion_sort -> memcpy
+2b9a85070 add syscall info
+9da04ae60 recall_func(), realloc_func() implemented
+8d4e00b9d implementing recall funcs
+a86feec58 recall, realloc func implementing
+53a98d3bb 0113
+70a910347 Starting remove simulation Implement
+5809ad9c2 no guard byte
+899c6e72e YCSB 100,000,000 test success
+598169899 0108
+c5ac5a9c1 no printk, printk cause kernel panic
+aaaa5e750 ink_start fix
+92cfb3ddc remove debugging printk, and comments
+54ef4b5cf kernel read,write completely work!
+b57ed263c delete unused lines
+aaccd6a33 정리
+bedfd141c SUCCESS (might be)
+a2c57d5ab 0102
+898019b38 pursuing
+e6eb2dcc8 insert 40000, search 35468
+8bad75372 conversion complete, search error
+277118fe4 nr_chunks error
+831000d04 conversion -ing
+b2ac26fce load problem solved, conversion needed
+a51784b2f 1218 backup
+c8f859f5d 1218 backup
+f27504853 1218 backup
+8a63bc278 kernerling
+bbc33c223 ERROR FIX
+632a7dbfb insert, search / init need help
+b135acd39 insert backup 1126
+0275e5c4f 1126 backup
+9fd7fe670 1120
+36a4ada75 1119
+dc213d6aa 1131
+db8974110 1119
+6d668d940 1119
+fe8cadd9f NEW INK USER SIMULATION
+cef4590a4 1112 kernel work
+5d68531a4 1112 BACKUP
+ea18edb2d 11.11 backup
+d36a492ca  no f-words
+6ec14ab45 linked list
+c13dfd495 Processing...
+726ef6e35 free list simulation
+118d72e21 meta[] working
+f10cb2033 1031 backup
+7d77d2355 1105
+3e70c8c2e last one
+996e4f99b 1030 backup, remove printk
+8b9e2be94 1029 backup || virt_addr problem solve
+1506e8f24 10.27 backup
+9e1af2ba4 no printk in read/write
+f612d0edf backup 1008
+57c62e6ae printk cause long booting time
+f2df4dd51 October
+7f1b4457b tracing
+f4d6f9958 degugging
+598588982 find virt_addr part
+bfd17a20e backup?
+518d5b16a change Name
+f52c9ace1 0920 dynamic allocator test-ing
+357d6efa4 dynamic allocator test-ing 0920
+f46ccc4dd dynamic allocator test-ing
+395538657 node[0]->value address error. unknown reason
+c7dc75a93 README.md FIX
+87ae4d62a README.md fix
+690aedabc 0919 dynamic allocator
+04c1c8d6a backup
+9fb598573 UPDATE README.md
+7a95a9a4b 0917 synch no problem
+733c4ffb6 0917 test-ing
+cd943a16f 0916 test-ing synchronization again, my fault
+17419dca2 0913 test -ing
+3c23e5996 0913 test -ing
+8236cb55f 0913 test-ing
+d81d92c2f 0913 static memory allocator testing
+e3478f43b README UPDATE
+2c4263a06 0911 pmem static memory alloc -ing
+c00ba7b68 0911 progressing
+b9623452c DON'T FORGET '\0' in strlen(str) + 1
+177d7b5f5 disable codes
+53dfb7e60 testing
+f44376e3f btree.c progressing
+124ddb0ab test-ing static memory alloc
+74cc0bc32 test-ing static memory alloc
+ca73ce19f test-ing static allocation
+0aff34be2 test-ing
+860fbe2ae test-ing, backup
+d1c966fe9 test-ing
+9c01d0476 backup
+bc3874005 testing progress
+cea6ca4bd simple script for kernel compile
+e869447e3 testing progress...
+972d86eb6 pmem userSpace emulation test
+5199ecef6 pmem test code added
+2d8138252 pmem_device_attach location
+6662d179e comment update, clear unused lines
+c27dca484 update tracepoint
+867c4bf47 minor fix - memory leak
+ad435f085 fix memory leak, improve btree traversal algorithm
+092164647 remove YCSB in this project
+af5fbae70 YCSB ADD
+afdc7699d FIXING
+4e636089b client skeleton
+2e7d05cff add kbtree
+7fd915e21 add kbtree
+8d50a4014 YCSB ADD
+d65040714 FIX ERROR
+3b941e7cd YCSB ADD
+571b62850 kernel reader writer semaphore
+ad3b39919 pthread_rwlock applied
+9422737d7 change BTree using static root
+ab4ced974 kernel test code
+bbc34266d refactoring userBTree
+34faf66c0 delete linked-list KeyValue System call
+433c8e6b7 kernelBTree remove complete
+132beff8d memory leak complete
+32ca1cc23 memory leak fix progress...
+efeaa473d working fine i think. now catch memory leak
+37280f9ae modified, testing
+20a8b3098 swap problem solved. but still not complete
+c54898e70 backup
+43e272d54 994/1000
+40b990123 trying implement delete. not working
+21147a988 ready for userBTree
+905731f35 Merge branch 'master' of https://github.com/sslab-ajou/inkernel-kvstore
+3bbfd4a70 User Space BTree test
+1ff674a73 Update README.md
+92abddf51 update README.md
+77be1652b update duplicate key
+e38057349 keyvalue.c update. header, Makefile, table update
+df1d62488 linux-5.0.3 add
+29f985dff linux 5.0.3 init

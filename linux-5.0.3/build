@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo make -j && sudo make modules_install && sudo make install

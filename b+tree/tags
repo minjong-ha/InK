@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BP_H_	bp.h	2;"	d
+FALSE	bp.h	5;"	d
+INDEX_MAX	bp.h	7;"	d
+TRUE	bp.h	4;"	d
+addValue	bp.c	/^void addValue(struct bp_node *node, char *key, void *left, void *right) {$/;"	f
+bp_init	bp.c	/^void bp_init() {$/;"	f
+bp_insert	bp.c	/^int bp_insert(char *key, char *value) {$/;"	f
+bp_node	bp.h	/^struct bp_node {$/;"	s
+bp_node_create	bp.c	/^struct bp_node *bp_node_create() {$/;"	f
+bp_node_splitNormal	bp.c	/^struct bp_node *bp_node_splitNormal(struct bp_node *currentNode, struct bp_node *parentNode, char *key) {$/;"	f
+bp_node_splitRoot	bp.c	/^struct bp_node *bp_node_splitRoot(struct bp_node *parentNode) {$/;"	f
+bp_remove	bp.c	/^int bp_remove(char *key) {$/;"	f
+bp_search	bp.c	/^int bp_search(char *key) {$/;"	f
+changeOffset	bp.c	/^void changeOffset(void *dest, void *src, size_t size) {$/;"	f
+children	bp.h	/^		void *children[INDEX_MAX + 1];$/;"	m	struct:bp_node
+clearNode	bp.c	/^void clearNode(struct bp_node *node) {$/;"	f
+findValue	bp.c	/^int findValue(struct bp_node *node, char *key) {$/;"	f
+index	bp.h	/^		char *index[INDEX_MAX];$/;"	m	struct:bp_node
+insertTest	bp.c	/^void insertTest() {$/;"	f
+is_leaf	bp.h	/^		int is_leaf;$/;"	m	struct:bp_node
+main	main.c	/^int main() {$/;"	f
+nextNodeIndex	bp.c	/^int nextNodeIndex(struct bp_node *node, char *key) {$/;"	f
+nr_chunks	bp.h	/^		int nr_chunks;$/;"	m	struct:bp_node
+removeTest	bp.c	/^void removeTest() {$/;"	f
+removeValue	bp.c	/^void removeValue(struct bp_node *node, int index) {$/;"	f
+root	bp.c	/^struct bp_node *root;$/;"	v	typeref:struct:bp_node
+searchTest	bp.c	/^void searchTest() {$/;"	f
+testLimit	bp.c	/^int testLimit = 100000;$/;"	v
